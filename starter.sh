@@ -37,6 +37,9 @@ sudo pacman -S jre11-openjdk-headless jre11-openjdk jdk11-openjdk openjdk11-doc 
 #Python
 sudo snap install python38
 
+#Alterar hora
+sudo timedatectl set-timezone UTC
+
 #Print Versions
 echo
 echo " --------------Versions---------------"
@@ -49,3 +52,5 @@ java -version
 echo
 echo --- python ---
 python --version
+
+# ----------- Finalizado -------------
